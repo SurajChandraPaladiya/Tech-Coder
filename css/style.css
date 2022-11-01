@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
                                                      Font Import
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
@@ -10,10 +11,15 @@
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
                                                      Comman
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
+=======
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat+Alternates:wght@300;400;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+>>>>>>> da8e6bc71d04bbf1bdd83e4c1e54f841f6fb5bf3
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 html {
     font-size: 62.5%;
@@ -156,4 +162,11 @@ nav{
     align-items:center;
     justify-content:center;
     margin-top: 1rem;
+=======
+
+    /* Google Fonts Here */
+    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+>>>>>>> da8e6bc71d04bbf1bdd83e4c1e54f841f6fb5bf3
 }
