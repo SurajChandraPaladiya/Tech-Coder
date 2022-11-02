@@ -183,23 +183,17 @@ nav{
   box-shadow: 4px 5px 8px 0;
   border-radius: .7rem;
   padding: .6rem;
-
-
 }
 
 .member-image{
+  background: url("../Image/zendaya.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
   margin: 1rem auto;
-  background: url("../Image/Frame\ 9.png") ;
-}
-
-.member-image img{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 
@@ -231,12 +225,13 @@ nav{
 
 .member-btn button{
   font-family: 'Crimson Text', serif;
-  padding: .4rem;
+  padding: .6rem .4rem;
   width: 10rem;
   background-color: var(--black);
   color: #f7f7f7;
   font-size: 1.6rem;
   border-radius: .4rem;
   cursor: pointer;
+  border: none;
 
 }
