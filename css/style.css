@@ -215,21 +215,23 @@ nav{
 
 .team-card .member-btn{
   margin: 1rem auto;
-  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.member-btn button{
+.member-btn a{
   font-family: 'Crimson Text', serif;
-  padding: .6rem .4rem;
-  width: 10rem;
-  background-color: var(--black);
+  padding: .6rem 1rem;
   color: #f7f7f7;
-  font-size: 1.6rem;
   border-radius: .4rem;
   cursor: pointer;
   border: none;
-
+  font-size: 1.6rem;
+  color: #f7f7f7;
+  background-color: var(--black);
 }
+
 /* Team Section Ends Here*/
 
 
