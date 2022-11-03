@@ -248,21 +248,29 @@ nav{
 
 .team-card .member-btn{
   margin: 1rem auto;
-  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.member-btn button{
+.member-btn a{
   font-family: 'Crimson Text', serif;
+<<<<<<< HEAD
   padding: .6rem .4rem;
   width: 10rem;
   background-color: var(--blue);
+=======
+  padding: .6rem 1rem;
+>>>>>>> c1fe35329b861baf0fe5d2a83591c431407d5eb9
   color: #f7f7f7;
-  font-size: 1.6rem;
   border-radius: .4rem;
   cursor: pointer;
   border: none;
-
+  font-size: 1.6rem;
+  color: #f7f7f7;
+  background-color: var(--black);
 }
+
 /* Team Section Ends Here*/
 
 
