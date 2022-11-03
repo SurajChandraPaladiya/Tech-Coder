@@ -259,10 +259,14 @@ footer{
   font-size: 1.6rem;
 }
 
+.footer-pages li a{
+  cursor: pointer;
+  color: var(--white);
+}
+
 footer .credit{
   font-size: 1.6rem;
   padding: 1rem;
-
 }
 
 .credit .heart{
