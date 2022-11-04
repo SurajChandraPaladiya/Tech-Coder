@@ -171,9 +171,13 @@ nav{
     margin-top:2.5rem;
     border-radius: 8px;
     cursor: pointer;
+    transition: all 0.2s linear;
 
     /* Google Fonts Here */
     /* font-family: 'Crimson Text', serif; */
+}
+.btn:hover{
+  background: var(--adadad);
 }
 .icon{
   font-size:2.5rem;
