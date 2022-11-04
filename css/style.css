@@ -48,7 +48,7 @@ li {
     --whiteBg:#f7f7f7;
     --highlight:#ff781f;
     --black:#212529;
-    --box-shadow: 0px 0px 30px 0px rgba(148,142,148,1);
+    --box-shadow: 4px 5px 8px 0;
     --abhi:#7d7d7d;
 }
 
@@ -431,6 +431,45 @@ font-weight: 400;
   font-size: 1.6rem;
   color: #f7f7f7;
 }
+
+
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                                                     Work 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
+
+.work{
+  padding-left:8rem;
+  margin-top: 2rem;
+}
+.w-cart{
+  width: 85%;height:30rem;
+  margin-bottom:5rem;
+  box-shadow: var(--box-shadow);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  padding:0rem 2rem;
+  cursor: pointer;
+}
+.w-cart i{
+  font-size: 7rem;
+  margin-bottom:1rem;
+  padding: 1rem;
+}
+
+.w-cart h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.w-cart p{
+  font-size: 1.5rem;
+  color:var(--abhi);
+}
+
+
+
+
 
 /* Team Section Ends Here*/
 
