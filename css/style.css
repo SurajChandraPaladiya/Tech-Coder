@@ -3,7 +3,7 @@
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat+Alternates:wght@300;400;600&family=Ubuntu:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 
 
@@ -11,9 +11,7 @@
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
                                                      Common
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat+Alternates:wght@300;400;600&family=Ubuntu:wght@400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +26,7 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     position: relative;
+    /* background:#161b22; */
   }
 
 a {
@@ -35,6 +34,8 @@ a {
     color:black;
 
   }
+  
+
   
 li {
     list-style: none;
@@ -57,6 +58,7 @@ li {
     justify-content:center;
     font-size:4rem;
     margin:2rem 0;
+    margin-top: 3rem;
 }
 .grid {
     display: grid;
@@ -97,6 +99,7 @@ li {
     padding: 0rem 5rem;
 }
 
+
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
                                                      NavBar
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
@@ -114,19 +117,22 @@ nav{
     display:flex;
     align-items:center;
     justify-content:center;
-    gap:2.5rem;
-    margin-right: 6rem;
+    gap:3rem;
+    margin-right: 10rem;
 }
 .navList li{
-    font-size:1.8rem;
+    font-size:1.5rem;
 }
 .navList li a{
     color:var(--white);
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 .logo img{
-    height: 6rem;
+    height: 8rem;
     margin-left: 6rem;
+    padding-top:2rem;
     padding-top: 1rem;
+    cursor: pointer;
 }
 
 
@@ -135,9 +141,9 @@ nav{
 *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
 .heroSection{
     width: 100%;
-    height: 100vh;
+    height: 103vh;
     background:url(../Image/Frame\ 9.png) no-repeat center center/cover;
-    margin-top: -6.5rem;
+    margin-top: -8.5rem;
     z-index: -10;
     display:flex;
     align-items:center;
@@ -145,11 +151,13 @@ nav{
 }
 .textBox{
     z-index: 10;
-    margin-left: 65rem;
+    margin-left: 47rem;
 }
 .textBox h2{
     color:var(--white);
     font-size: 5rem;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 .btn{
     width: 10rem;height: 4rem;
@@ -160,8 +168,191 @@ nav{
     display:flex;
     align-items:center;
     justify-content:center;
-    margin-top: 1rem;
+    margin-top:2.5rem;
+    border-radius: 8px;
+    cursor: pointer;
 
+    /* Google Fonts Here */
+    /* font-family: 'Crimson Text', serif; */
+}
+.icon{
+  font-size:2.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.fa-facebook-f{
+  color:rgb(80, 126, 252);
+  cursor: pointer;
+
+}
+.fa-twitter{
+  color:#26a7de;
+  cursor: pointer;
+
+  margin-left: 2rem;
+}
+.fa-instagram{
+  color:#8a3ab9	;
+  margin-left: 2rem;
+  font-size: 2.7rem;
+  cursor: pointer;
+
+
+}
+.fa-github{
+  color:var(--whiteBg)	;
+  margin-left: 2rem;
+  cursor: pointer;
+
+}
+
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                                                     Offer
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
+.prograsbar{
+  width: 80%;height: 5px;
+  background:var(--adadad);
+  margin-bottom:2rem;
+  margin-top: 1rem;
+  position: relative;
+}
+.offer{
+  padding-left: 10rem;
+}
+.offer label{
+  font-size:1.5rem;
+  font-weight: bold
+}
+.p-html::after{
+  content: "";
+  position: absolute;
+  left: 0;top: 0;
+  height: 100%;width:95%;
+  background: red;
+  }
+  .p-css::after{
+    content: "";
+    position: absolute;
+    left: 0;top: 0;
+    height: 100%;width:90%;
+    background: yellow;
+    }
+    .p-js::after{
+      content: "";
+      position: absolute;
+      left: 0;top: 0;
+      height: 100%;width:80%;
+      background: blue;
+      }
+      .p-db::after{
+        content: "";
+        position: absolute;
+        left: 0;top: 0;
+        height: 100%;width:75%;
+        background:skyblue;
+        }
+        .p-python::after{
+          content: "";
+          position: absolute;
+          left: 0;top: 0;
+          height: 100%;width:60%;
+          background:orange;
+          }
+          .p-ml::after{
+            content: "";
+            position: absolute;
+            left: 0;top: 0;
+            height: 100%;width:50%;
+            background: red;
+            }
+            .p-gd::after{
+              content: "";
+              position: absolute;
+              left: 0;top: 0;
+              height: 100%;width:95%;
+              background: blue;
+              }
+
+.right-offer{
+  padding-top: 3rem;
+}
+.right-offer h2{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom:0.5rem;
+  font-family: 'PT Serif', serif;
+}
+.right-offer i{
+  margin-right: 1.2rem;
+}
+.right-offer p{
+  font-size: 1.5rem;
+  margin-bottom:1.5rem;
+  color: var(--abhi);
+}
+
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                                                     Join Box 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
+.join-box{
+  width: 100%;
+  height: 15rem;
+  background:#3457D5;
+  background: linear-gradient(90deg, rgba(21,28,117,1) 11%, rgba(1,89,249,1) 100%);
+  margin-top: 2rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.j-box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-left: 10rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--white);
+  padding: 2rem;
+
+}
+.j-box i{
+  margin-right: 2rem;
+}
+
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                                                     Project
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/ 
+.project{
+  /* border:2px solid red; */
+  margin-top: 2rem;
+}
+.pro{
+  width:25rem;height:25rem;
+  margin-left: 5rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 4px 5px 8px 0;
+  margin-bottom: 5rem;
+
+
+}.pro img{
+  width: 100%;height: 100%;
+
+}
+.overlay{
+  position: absolute;
+  width: 100%;height: 100%;
+  top: 100%;left: 0;
+  background:rgba(0, 0, 0, 0.5);
+  transition: all 0.3s linear;
+  font-size: 5rem;
+  display:flex;
+  color:#fff;
+  align-items:center;
+  justify-content:center;
+}
+.pro:hover .overlay{
+  top:0;
 }
 
 
@@ -170,11 +361,11 @@ nav{
   display: flex;
   justify-content: space-around;
   margin: 3rem 0;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .team-card{
-  width: 25rem;
+  width: 30rem;
   height: 40rem;
   background-color: #fafafa;
   box-shadow: 4px 5px 8px 0;
@@ -211,6 +402,9 @@ nav{
   margin: 1.5rem 0;
   font-size: 1.2rem;
   text-align: justify;
+  color:var(--abhi);
+  font-family: 'PT Serif', serif;
+font-weight: 400;
 }
 
 .team-card .member-btn{
@@ -223,6 +417,9 @@ nav{
 
 .member-btn a{
   font-family: 'Crimson Text', serif;
+  padding: .6rem .4rem;
+  width: 10rem;
+  background-color: var(--blue);
   padding: .6rem 1rem;
   color: #f7f7f7;
   border-radius: .4rem;
@@ -230,7 +427,6 @@ nav{
   border: none;
   font-size: 1.6rem;
   color: #f7f7f7;
-  background-color: var(--black);
 }
 
 /* Team Section Ends Here*/
