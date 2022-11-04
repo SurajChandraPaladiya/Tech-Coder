@@ -179,24 +179,31 @@ nav{
   font-size:2.5rem;
   padding: 1rem;
   margin-top: 1rem;
-  cursor: pointer;
 }
 .fa-facebook-f{
   color:rgb(80, 126, 252);
+  cursor: pointer;
+
 }
 .fa-twitter{
   color:#26a7de;
+  cursor: pointer;
+
   margin-left: 2rem;
 }
 .fa-instagram{
   color:#8a3ab9	;
   margin-left: 2rem;
   font-size: 2.7rem;
+  cursor: pointer;
+
 
 }
 .fa-github{
   color:var(--whiteBg)	;
   margin-left: 2rem;
+  cursor: pointer;
+
 }
 
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
@@ -283,6 +290,67 @@ nav{
   margin-bottom:1.5rem;
   color: var(--abhi);
 }
+
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                                                     Join Box 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
+.join-box{
+  width: 100%;
+  height: 15rem;
+  background:#3457D5;
+  background: linear-gradient(90deg, rgba(21,28,117,1) 11%, rgba(1,89,249,1) 100%);
+  margin-top: 2rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.j-box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-left: 10rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--white);
+  padding: 2rem;
+
+}
+.j-box i{
+  margin-right: 2rem;
+}
+
+/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                                                     Project
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=**=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/ 
+.project{
+  /* border:2px solid red; */
+  margin-top: 2rem;
+}
+.pro{
+  width:25rem;height:25rem;
+  margin-left: 5rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 4px 5px 8px 0;
+
+
+}
+.overlay{
+  position: absolute;
+  width: 100%;height: 100%;
+  top: 100%;left: 0;
+  background:rgba(0,0,0,0.5);
+  transition: all 0.3s linear;
+  font-size: 5rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.pro:hover .overlay{
+  top:0;
+}
+
+
 /* Team Section Starts Here*/
 #team-members{
   display: flex;
